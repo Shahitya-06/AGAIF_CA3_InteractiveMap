@@ -6,15 +6,16 @@ Certified Assessment 3, AGAIF 2026 Bootcamp 1: AI-Assisted Interactive Web Mappi
 
 ```
 index.html              Main web page
-style.css                Styling for the layout, sidebar, legend and pop-ups
+styles.css                Styling for the layout, sidebar, legend and pop-ups
 script.js                Leaflet.js logic: base map, data loading, layers, pop-ups
 data/
-  asean_countries.geojson   10 ASEAN country boundary polygons (converted from the
+  boundary_data.js          10 ASEAN country boundary polygons (converted from the
                              provided Asean.shp, reprojected from Web Mercator to WGS84)
-  asean_places.geojson      230 place points (converted from the provided Place.shp,
+  places_data.js             230 place points (converted from the provided Place.shp,
                              already in WGS84)
-CA3_Report.pdf           Written report: AI tool/prompts used, dataset description,
-                          development process, corrections made, screenshots, reflection
+CA3_Report.pdf           Written report: AI tool/prompts used, source code, corrections
+                         modifications or improvements, screenshots, brief explanation on
+                         development, testing and troubleshooting
 screenshots/             Screenshots of the completed map (also embedded in the PDF report)
 README.md                This file
 ```
